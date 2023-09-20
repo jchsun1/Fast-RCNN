@@ -10,8 +10,8 @@ requirements.txt			环境依赖\
 SelectiveSearch.py			项目的选择性搜索实现\
 SelectiveSearchCode.py		选择性搜索源码\
 Train.py					各阶段模型训练代码\
-Utils.py					用于IoU计算、数据集加载、模型定义、图像绘制等功能的实现\
+Utils.py					用于IoU计算、数据集加载、模型定义、图像绘制等功能的实现
 # 程序运行流程
 (1) 运行SelectiveSearch.py, 根据2flowers数据和标注在data/ss目录下生成推荐区域信息\
 (2) 运行Train.py，程序会在ss数据集上进行分类和回归多任务模型训练，并生成./model/路径保存模型\
-(3) 运行Predict.py，对数据集进行预测，生成./predict/目录保存预测结果\
+(3) 运行Predict.py，对数据集进行预测，生成./predict/目录保存预测结果
